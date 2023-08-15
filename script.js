@@ -42,7 +42,7 @@ ScrollReveal().reveal('.home-content h1', {origin: 'left'});
 ScrollReveal().reveal('.about-content', {origin: 'right'});
 
 const typed = new Typed('.multiple-text', {
-    strings: ['Software Engineering student', 'Data Engineering', 'Data Analyst', 'Data Analytic'],
+    strings: ['Software Engineering student', 'Data Engineering', 'Data Analyst'],
     typeSpeed: 50,
     backSpeed: 50,
     backDelay: 500,
