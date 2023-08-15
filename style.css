@@ -89,7 +89,7 @@ section {
     }
 
     50% {
-        transform: translateY(-4rem);
+        transform: translateY(-2.5rem);
     }
 
     100% {
@@ -230,6 +230,10 @@ span {
     box-shadow: 0 0 1rem var(--main-color);
 }
 
+.dot{
+    color: var(--second-bg-color);
+}
+
 @media (max-width: 1200px) {
     html {
         font-size: 55%;
@@ -300,11 +304,19 @@ span {
     .about img {
         width: 70vw;
     }
+
+    .frameworks-img img {
+        width: 40px;
+    }
 }
 
 @media (max-width: 450px) {
     html {
         font-size:50%;
+    }
+
+    .frameworks-img img {
+        width: 40px;
     }
 }
 
@@ -324,5 +336,9 @@ span {
     .footer p {
         text-align: center;
         margin-top: 2rem;
+    }
+
+    .frameworks-img img {
+        width: 40px;
     }
 }
